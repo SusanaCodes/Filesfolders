@@ -27,7 +27,7 @@ const Folder = (props) => {
   return (
     <div>
       <span onClick={handleClick}>
-        <i className=" green large folder icon"></i>
+        <i className=" green largefolder icon"></i>
         <i className={` green caret ${direction} icon`}></i>
       </span>
       {name}
